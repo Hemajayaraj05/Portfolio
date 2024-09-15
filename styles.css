@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:5px;
+    padding:5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: flex-start;
+    background-color: rgb(131, 135, 134);
+    padding:2px;
+   
+}
+.navbar a{
+    margin:10px 10px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+    padding:10px;
+    border-radius: 8px;
+    background-color: rgb(160, 151, 141);
+}
+.navbar a:hover{
+    background-color: rgb(188, 157, 121);
+    box-shadow: rgb(215, 205, 145) 1px 2px 2px 0px;
+}
+.main{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.name h1{
+    color:brown;
+    margin:10px 40px 0px ;
+    font-size: xx-large;
+    font-weight: 600;
+
+}
+.name h2{
+    color:brown;
+    margin:0px 80px 0px ;
+    font-size: xx-large;
+    font-weight: 600;
+
+}
+.name p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex:1;
+    margin-top:10px;
+    margin-bottom:10px;
+    line-height: 25px;
+    word-spacing: 2px;
+}
+.name button{
+    border-radius: 8px;
+    padding:10px;
+    margin-bottom: 20px;
+}
+.name button:hover{
+    background-color: rgb(188, 157, 121);
+    box-shadow: rgb(215, 205, 145) 1px 2px 2px 0px;
+
+}
+.main .image{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main .image img{
+    height: 400px;
+    min-width: fit-content;
+     border-radius: 20px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    padding:10px;
+   
+}
+.bottom a{
+    border: 2px solid rgb(212, 206, 206);
+    padding:10px;
+    margin:5px;
+    border-radius: 8px;
+}
+.bottom a:hover{
+    background-color: rgb(118, 87, 48);
+}
+.AboutAndSkill{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    line-height: 25px;
+    justify-content: flex-start;
+    text-align: justify;
+    
+}
+.about h1{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    margin-bottom:20px;
+}
+.about p{
+    display: flex;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    justify-content: flex-start;
+    text-align: justify;
+    margin-top:50px;
+    
+}
+ .frontend,.backend,.database,.programming{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top:10px;
+}
+.simage{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    margin-left:10px;
+
+}
+.frontend img,.backend img,.database img,.programming img{
+    display: flex;
+    flex-direction: row;
+    margin-left:10px;
+    height:40px;
+    width:40px
+}
+.frontend img:hover,.backend img:hover,.database img:hover,.programming img:hover{
+    background-color: rgb(188, 157, 121);
+    box-shadow: rgb(215, 205, 145) 1px 2px 2px 0px; 
+    border-radius: 8px;
+    padding:10px;
+}
+.skill h2{
+    padding:20px;
+}
+.projects{
+    display:flex;
+    flex-direction: column;;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card{
+    height:400px;
+    width:80%;
+    margin:20px;
+    display: flex;
+    flex-direction:column ;
+    border:2px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius:8px;
+    padding:10px;
+    gap:10px; 
+}
+.card-image{
+    display:flex;
+    flex-direction: row;
+    height:250px;
+    width:100%;
+    /* border:2px solid black; */
+    border-radius:8px;
+}
+.card-image img{
+    height: 250px;
+    border-radius:8px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.card-name{
+    display:flex;
+    flex-direction: column;
+    height:150px;
+    width:100%;
+    /* border:2px solid black; */
+    border-radius:8px;
+    gap:20px;
+   
+
+}
+.card-name .title{
+    display: flex;
+    flex-direction: row;
+    /* border:2px solid black; */
+    border-radius:8px;
+    height:40px;
+   
+    
+}
+.card-name .title:hover{
+    background-color: rgb(188, 157, 121);
+    box-shadow: rgb(215, 205, 145) 1px 2px 2px 0px; 
+    border-radius: 8px;
+    padding:10px;
+
+}
+.title a{
+    text-decoration: none;
+}
+
+
+.card-name .but{
+    /* border:2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* height:80px; */
+    width:100%;
+    flex-flow: wrap;
+    border-radius:8px;
+    gap:10px;
+   
+}
+.but button{
+    margin:10px 10px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+    padding:10px;
+    border-radius: 8px;
+    background-color: rgb(160, 151, 141);
+    flex-flow: wrap;
+
+}
+.AchivementsAndInterest{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    padding:10px;
+     border:2px solid black;
+    
+}
+.list{
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    padding:10px;
+    line-height: 25px;
+    font-weight:500;
+}
+.interest{
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    padding:10px;
+    font-weight:500;
+}
+.interest .but{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    border-radius:50px;
+    gap:8px;
+    flex-flow: wrap;
+   
+}
+.bottom .hire{
+    margin-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
