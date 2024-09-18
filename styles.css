@@ -296,6 +296,124 @@ body{
 .bottom .hire{
     margin-left:10px;
 }
+@media (min-width:1178px)
+{
+    .main{
+       margin:50px; 
+        display:flex;
+        flex-direction: row;
+        text-align: justify;
+        justify-content: space-between;
+        gap:80px;
+    }
+    .name button{
+        margin-top:20px;
+        height:50px;
+        width:200px;
+    }
+    .name p{
+
+        flex:2;
+        font-size:25px;
+        line-height: 40px;
+        word-spacing: 2px;
+        height:60vh;
+        width:60vw;
+      
+    }
+    .name h2{
+        display: flex;
+        justify-content:center;
+        font-size:80px;
+      
+    }
+    .name h1{
+        font-size:90px;
+    }
+    .main .image{
+       
+        display: flex;
+        flex:1;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;    
+        
+    }
+    .main .image img{
+        height:40vh;
+        width:20vw;
+         border-radius: 20px;
+    }
+    .AboutAndSkill{
+        margin:50px;
+        font-size:25px;
+        line-height: 40px;
+        word-spacing: 2px;
+        display: flex;
+        flex-direction:row;
+        gap:50px;
+        
+    }
+   
+    .about p{
+        height:50vh;
+        width:50vw;
+        flex:1;
+    }
+    .skill{
+        height:70vh;
+        width:50vw; 
+       border:2px solid black;
+        
+    }
+    .projects{
+        display:flex;
+        flex-direction: column;
+        border:2px solid black;
+        
+
+    }
+    .projects h1{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      
+
+    }
+    .pcontainer{
+        display:flex;
+        flex-direction: row;
+        margin:10px;
+        justify-content: center;
+        align-items: center;
+        flex-grow: inherit;
+        gap:90px;
+      
+       
+    }
+    .card{
+     
+   flex-flow:wrap;
+    }
+    .AchivementsAndInterest{
+        margin:50px;
+        display: flex;
+        flex-direction: row;
+         border:2px solid black;
+         justify-content: space-between;
+        
+    }
+    .list{
+       
+        margin:50px;
+        font-size:25px;
+        line-height: 40px;
+        word-spacing: 2px;
+    }
+ 
+  
+   
+}
 
 
 
