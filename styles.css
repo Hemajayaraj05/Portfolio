@@ -42,11 +42,23 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
     color: black;
     padding:10px;
     border-radius: 8px;
+  
    
 }
 .navbar a:hover{
     background-color: rgb(188, 157, 121);
     box-shadow: rgb(215, 205, 145) 1px 2px 2px 0px;
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
 }
 .main{
     padding:20px;
@@ -84,9 +96,9 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
     word-spacing: 2px;
 }
 .name button{
-    border-radius: 8px;
-    padding:10px;
-    margin-bottom: 20px;
+        border-radius: 8px;
+        padding:10px;
+        margin-bottom: 20px;
         background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
         margin: 10px;
         padding: 15px 45px;
